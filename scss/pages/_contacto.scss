@@ -1,0 +1,183 @@
+* {
+  font-family: "Prata", serif;
+}
+/*INICIO HEADER*/
+.nav-link {
+  color: white;
+  text-align: center;
+}
+
+.hr-class {
+  max-width: 100px;
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-header {
+  width: 140px;
+}
+/*FIN HEADER*/
+
+/*INICIO MAIN INDEX*/
+.main-principal-contacto {
+  @include flex-column-center;
+  background-repeat: no-repeat;
+  background-image: url(/ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 50vh;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+  &-title {
+    font-size: 45px;
+    margin-top: 20px;
+    &-texto {
+      font-size: 18px;
+      font-weight: normal !important;
+      letter-spacing: 2px;
+      text-align: center;
+      padding: 0px 10px;
+    }
+  }
+}
+/*FIN MAIN INDEX*/
+
+/*INICIO SECTION CONTACTO*/
+
+.section-contacto {
+  display: grid;
+  grid-template-columns: 320px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  padding-top: -10px;
+  &-h2{
+    font-size: 35px;
+  }
+  &-texto{
+    font-size: 20px
+  }
+}
+
+/*FIN SECTION CATALOGO*/
+
+@media (min-width: 992px) {
+  /*INICIO MAIN INDEX*/
+  .main-principal-contacto {
+    @include flex-column-center;
+    background-repeat: no-repeat;
+    background-image: url(/ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 70vh;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+    &-title {
+      font-size: 80px;
+      &-texto {
+        font-size: 25px;
+        font-weight: normal !important;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 20px 400px;
+      }
+    }
+  }
+
+  /*FIN MAIN INDEX*/
+
+  /*INICIO SECTION CATALOGO*/
+
+  .section-contacto {
+    display: grid;
+    grid-template-columns: 750px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding-top: -10px;
+    &-h2{
+      font-size: 40px;
+    }
+    &-texto{
+      font-size: 25px;
+    }
+  }
+    /*FIN SECTION CONTACTO*/
+
+
+  /*INICIO FOOTER*/
+  .logo_footer {
+    width: 150px;
+    height: 150px;
+  }
+
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  .pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+  }
+  .pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+  }
+  .pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms ease;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+  }
+  .pie-pagina .grupo-1 .red-social a:hover {
+    color: gold;
+  }
+  .pie-pagina .grupo-2 {
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+  }
+  .pie-pagina .grupo-2 small {
+    font-size: 15px;
+  }
+}
