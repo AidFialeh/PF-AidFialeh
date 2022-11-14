@@ -8618,7 +8618,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/Batata-y-Rubiolo_00062.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/Batata-y-Rubiolo_00062.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -8660,7 +8660,7 @@ textarea.form-control-lg {
     flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/Batata-y-Rubiolo_00062.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/Batata-y-Rubiolo_00062.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -8702,7 +8702,7 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/imagen_home.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/imagen_home.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -8731,7 +8731,7 @@ textarea.form-control-lg {
     flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/imagen_home.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/imagen_home.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -8761,7 +8761,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/Burrata-b_00029.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/Burrata-b_00029.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -8808,7 +8808,7 @@ textarea.form-control-lg {
     flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/Burrata-b_00029.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/Burrata-b_00029.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -8949,57 +8949,7 @@ textarea.form-control-lg {
       font-size: 40px; }
     .section-contacto-texto {
       font-size: 25px; }
-  /*FIN SECTION CONTACTO*/
-  /*INICIO FOOTER*/
-  .logo_footer {
-    width: 150px;
-    height: 150px; }
-  .pie-pagina .grupo-1 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px; }
-  .pie-pagina .grupo-1 .box figure {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .pie-pagina .grupo-1 .box figure img {
-    width: 250px; }
-  .pie-pagina .grupo-1 .box h2, .pie-pagina .grupo-1 .box .h2 {
-    color: #fff;
-    margin-bottom: 25px;
-    font-size: 20px; }
-  .pie-pagina .grupo-1 .box p {
-    color: #efefef;
-    margin-bottom: 10px; }
-  .pie-pagina .grupo-1 .red-social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    margin-right: 10px;
-    background-color: black;
-    text-align: center;
-    transition: all 300ms ease;
-    border: 1px solid black;
-    border-radius: 25px;
-    padding: 5px; }
-  .pie-pagina .grupo-1 .red-social a:hover {
-    color: gold; }
-  .pie-pagina .grupo-2 {
-    background-color: black;
-    padding: 15px 10px;
-    text-align: center;
-    color: white; }
-  .pie-pagina .grupo-2 small, .pie-pagina .grupo-2 .small {
-    font-size: 15px; } }
+  /*FIN SECTION CONTACTO*/ }
 
 /*INICIO MAIN SEPARTE*/
 .main-principal-separte {
@@ -9007,7 +8957,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/SE_PARTE.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/SE_PARTE.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -9047,7 +8997,7 @@ textarea.form-control-lg {
     flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/SE_PARTE.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/SE_PARTE.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;

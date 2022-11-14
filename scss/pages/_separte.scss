@@ -2,7 +2,7 @@
 .main-principal-separte {
   @include flex-column-center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/SE_PARTE.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/SE_PARTE.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -44,7 +44,7 @@
   .main-principal-separte {
     @include flex-column-center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/SE_PARTE.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/SE_PARTE.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;

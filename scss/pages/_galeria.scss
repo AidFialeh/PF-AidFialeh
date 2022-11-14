@@ -4,7 +4,7 @@
   @include flex-column-center;
   align-items: center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/imagen_home.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/imagen_home.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -37,7 +37,7 @@
   .main-principal-galeria {
     @include flex-column-center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/imagen_home.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/imagen_home.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;

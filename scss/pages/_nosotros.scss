@@ -2,7 +2,7 @@
   .main-principal-nosotros {
     @include flex-column-center;
       background-repeat: no-repeat;
-      background-image: url(/ImagenesValenti/ImagenesBackground/Batata-y-Rubiolo_00062.jpg);
+      background-image: url(../ImagenesValenti/ImagenesBackground/Batata-y-Rubiolo_00062.jpg);
       background-size: cover;
       background-position: center center;
       width: 100%;
@@ -48,7 +48,7 @@
   .main-principal-nosotros {
     @include flex-column-center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/Batata-y-Rubiolo_00062.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/Batata-y-Rubiolo_00062.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
