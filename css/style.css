@@ -8431,7 +8431,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/imagen_home.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/imagen_home.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -8453,7 +8453,7 @@ textarea.form-control-lg {
 .section-catalogo-main {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  background-image: url(/ImagenesValenti/ImagenesBackground/Valenti-apaisado-ok.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/Valenti-apaisado-ok.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8532,7 +8532,7 @@ textarea.form-control-lg {
     height: 90px; }
   /*INICIO MAIN INDEX*/
   .main-principal {
-    background-image: url(/ImagenesValenti/ImagenesBackground/imagen_home.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/imagen_home.jpg);
     display: flex;
     align-items: flex-start;
     background-repeat: no-repeat;
@@ -8562,7 +8562,7 @@ textarea.form-control-lg {
   .section-catalogo {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-image: url(/ImagenesValenti/ImagenesBackground/Valenti-apaisado-ok.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/Valenti-apaisado-ok.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -42,7 +42,7 @@
 .main-principal {
   @include flex-column-center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/imagen_home.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/imagen_home.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -67,7 +67,7 @@
 
 .section-catalogo-main {
   @include grid-columns;
-  background-image: url(/ImagenesValenti/ImagenesBackground/Valenti-apaisado-ok.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/Valenti-apaisado-ok.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,7 +159,7 @@
 
   /*INICIO MAIN INDEX*/
   .main-principal {
-    background-image: url(/ImagenesValenti/ImagenesBackground/imagen_home.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/imagen_home.jpg);
     display: flex;
     align-items: flex-start;
     background-repeat: no-repeat;
@@ -194,7 +194,7 @@
 
   .section-catalogo {
     @include grid-columns;
-    background-image: url(/ImagenesValenti/ImagenesBackground/Valenti-apaisado-ok.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/Valenti-apaisado-ok.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
