@@ -26,7 +26,7 @@
 .main-principal-contacto {
   @include flex-column-center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -75,7 +75,7 @@
   .main-principal-contacto {
     @include flex-column-center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;

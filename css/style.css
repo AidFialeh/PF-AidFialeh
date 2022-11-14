@@ -8874,7 +8874,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   background-repeat: no-repeat;
-  background-image: url(/ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
+  background-image: url(../ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -8917,7 +8917,7 @@ textarea.form-control-lg {
     flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
-    background-image: url(/ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
+    background-image: url(../ImagenesValenti/ImagenesBackground/Rosette-de-Lyon_00053.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
