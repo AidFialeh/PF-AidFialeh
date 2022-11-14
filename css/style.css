@@ -8589,6 +8589,14 @@ textarea.form-control-lg {
     height: 500px; }
   /*INICIO SECTION CAROUSEL*/
   /* INICIO FOOTER*/
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
   .logo_footer {
     width: 140px;
     height: 140px; }
