@@ -85,19 +85,19 @@
 }
 /*FIN SECTION CATALOGO*/
 
-  /*INICIO SECTION CAROUSEL*/
-  .section-carousel {
-    display: grid;
-    grid-template-rows: 1fr;
-    padding: 30px 0px;
-  }
-  .carousel-inner {
-    height: 400px;
-  }
-  .carousel-inner img {
-    height: 400px;
-  }
-  /*INICIO SECTION CAROUSEL*/
+/*INICIO SECTION CAROUSEL*/
+.section-carousel {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 30px 0px;
+}
+.carousel-inner {
+  height: 400px;
+}
+.carousel-inner img {
+  height: 400px;
+}
+/*INICIO SECTION CAROUSEL*/
 
 /*INICIO FOOTER*/
 .pie-pagina {
@@ -171,13 +171,12 @@
     visibility: inherit;
     z-index: 20;
     &-title {
-      display: flex;
       margin-left: 900px;
       margin-right: 40px;
-      padding: 20px 60px;
+      padding: 30px 60px;
       text-align: start;
       font-style: normal;
-      font-size: 40px;
+      font-size: 45px;
       font-weight: 400;
       line-height: 40px;
       &-button {
@@ -227,41 +226,41 @@
     height: 500px;
   }
   /*INICIO SECTION CAROUSEL*/
-/* INICIO FOOTER*/
+  /* INICIO FOOTER*/
 
-.pie-pagina .grupo-1 {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 45px 0px;
-}
-.logo_footer {
-  width: 140px;
-  height: 140px;
-}
-.footer-locales {
- display: grid;
- grid-template-columns: repeat(3, minmax(220px, 1fr));
- grid-template-rows: repeat(3, 150px );
- justify-items: center;
- gap: 20px;
-}
-.section-footer {
-  background: #1d1d1b;
-  text-align: center;
-  color: #ffffff;
-  line-height: 35px;
-  letter-spacing: 1px;
-  height: 400px;
-  width: 300px;
-  font-size: 20px;
-  padding: 20px;
-}
-.section-footer-redes {
-  padding: 20px 0px;
-}
-/*FIN FOOTER*/
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  .logo_footer {
+    width: 140px;
+    height: 140px;
+  }
+  .footer-locales {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    grid-template-rows: repeat(3, 150px);
+    justify-items: center;
+    gap: 20px;
+  }
+  .section-footer {
+    background: #1d1d1b;
+    text-align: center;
+    color: #ffffff;
+    line-height: 35px;
+    letter-spacing: 1px;
+    height: 400px;
+    width: 300px;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .section-footer-redes {
+    padding: 20px 0px;
+  }
+  /*FIN FOOTER*/
 }

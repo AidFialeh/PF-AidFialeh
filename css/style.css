@@ -8544,13 +8544,12 @@ textarea.form-control-lg {
     visibility: inherit;
     z-index: 20; }
     .main-principal-title {
-      display: flex;
       margin-left: 900px;
       margin-right: 40px;
-      padding: 20px 60px;
+      padding: 30px 60px;
       text-align: start;
       font-style: normal;
-      font-size: 40px;
+      font-size: 45px;
       font-weight: 400;
       line-height: 40px; }
       .main-principal-title-button {
