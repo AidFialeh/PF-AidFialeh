@@ -8413,13 +8413,13 @@ textarea.form-control-lg {
   .navbar-nav {
     font-size: 16px;
     margin-top: 1px;
-    background-color: black; }
+    background-color: #121212; }
 
 .hr-class {
   max-width: 100px;
   text-align: center;
   margin: auto;
-  background-color: black;
+  background-color: #121212;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -8490,7 +8490,7 @@ textarea.form-control-lg {
 
 .hr-class-footer {
   width: 60px;
-  background-color: black;
+  background-color: #121212;
   height: 2px; }
 
 .footer-locales {
@@ -8502,7 +8502,7 @@ textarea.form-control-lg {
 .section-footer {
   background: #1d1d1b;
   text-align: center;
-  color: #ffffff;
+  color: white;
   line-height: 35px;
   letter-spacing: 1px;
   height: 350px;
@@ -8513,10 +8513,10 @@ textarea.form-control-lg {
   padding: 15px 0px; }
 
 .pie-pagina .grupo-2 {
-  background-color: black;
+  background-color: #121212;
   padding: 15px 10px;
   text-align: center;
-  color: #fff; }
+  color: white; }
 
 /*FIN FOOTER*/
 @media (min-width: 992px) {
@@ -8606,9 +8606,9 @@ textarea.form-control-lg {
     justify-items: center;
     gap: 20px; }
   .section-footer {
-    background: #1d1d1b;
+    background: #121212;
     text-align: center;
-    color: #ffffff;
+    color: white;
     line-height: 35px;
     letter-spacing: 1px;
     height: 400px;
@@ -8854,27 +8854,6 @@ textarea.form-control-lg {
       width: 950px; }
   /*FIN SECTION NOVEDADES*/ }
 
-* {
-  font-family: "Prata", serif; }
-
-/*INICIO HEADER*/
-.nav-link {
-  color: white;
-  text-align: center; }
-
-.hr-class {
-  max-width: 100px;
-  text-align: center;
-  margin: auto;
-  background-color: black;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.logo-header {
-  width: 140px; }
-
-/*FIN HEADER*/
 /*INICIO MAIN INDEX*/
 .main-principal-contacto {
   display: flex;

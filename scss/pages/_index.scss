@@ -12,7 +12,7 @@
   padding: 5px;
 }
 .nav-link {
-  color: white;
+  color: $white;
   text-align: center;
   margin-top: 10px;
   margin-right: 10px;
@@ -22,7 +22,7 @@
   &-nav {
     font-size: 16px;
     margin-top: 1px;
-    background-color: black;
+    background-color: $dark;
   }
 }
 
@@ -30,7 +30,7 @@
   max-width: 100px;
   text-align: center;
   margin: auto;
-  background-color: black;
+  background-color: $dark;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -109,7 +109,7 @@
 
 .hr-class-footer {
   width: 60px;
-  background-color: black;
+  background-color: $dark;
   height: 2px;
 }
 
@@ -122,7 +122,7 @@
 .section-footer {
   background: #1d1d1b;
   text-align: center;
-  color: #ffffff;
+  color: $white;
   line-height: 35px;
   letter-spacing: 1px;
   height: 350px;
@@ -134,10 +134,10 @@
 }
 
 .pie-pagina .grupo-2 {
-  background-color: black;
+  background-color: $dark;
   padding: 15px 10px;
   text-align: center;
-  color: #fff;
+  color: $white;
 }
 
 /*FIN FOOTER*/
@@ -249,9 +249,9 @@
     gap: 20px;
   }
   .section-footer {
-    background: #1d1d1b;
+    background: $dark;
     text-align: center;
-    color: #ffffff;
+    color: $white;
     line-height: 35px;
     letter-spacing: 1px;
     height: 400px;
