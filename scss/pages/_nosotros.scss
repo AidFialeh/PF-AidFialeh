@@ -29,7 +29,7 @@
 /*INICIO SECTION NOSOTROS*/
 
 .section-nosotros {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: normal !important;
   margin: auto;
   letter-spacing: 2px;
@@ -43,7 +43,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $lg-viewport) {
   /*INICIO MAIN NOSOTROS*/
   .main-principal-nosotros {
     @include flex-column-center;

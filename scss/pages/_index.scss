@@ -142,7 +142,7 @@
 
 /*FIN FOOTER*/
 
-@media (min-width: 992px) {
+@media (min-width: $lg-viewport) {
   .navbar {
     background-color: rgba($color: #1e1d1d, $alpha: 0.3);
     &-nav {

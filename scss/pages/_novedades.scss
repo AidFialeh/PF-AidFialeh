@@ -48,7 +48,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $lg-viewport) {
   /*INICIO MAIN NOVEDADES*/
   .main-principal-novedades {
     @include flex-column-center;

@@ -46,7 +46,7 @@
 
 /*FIN SECTION CATALOGO*/
 
-@media (min-width: 992px) {
+@media (min-width: $lg-viewport) {
   /*INICIO MAIN INDEX*/
   .main-principal-contacto {
     @include flex-column-center;
